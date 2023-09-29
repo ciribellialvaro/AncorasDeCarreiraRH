@@ -115,8 +115,51 @@ namespace AncorasDeCarreiraRH
                 double media = somatorias[i] / 5.0; // Calcula a média dividindo por 5.0 para obter um valor decimal.
                 Console.WriteLine($"Grupo {i + 1} ({nomesGrupos[i]}): Soma = {somatorias[i]}, Média = {media:F2}");
             }
+            Console.WriteLine("\n\n\n\nDescobrindo o resultado\n" +
+                "Agora reveja suas respostas e localize os itens em que você deu pontos mais altos (normalmente 5 ou 6)." +
+                " Dessas respostas, selecione as três que sejam as mais verdadeiras para você e adicione a cada uma mais 4 pontos. " +
+                "\n\n\n\nA seguir, vou mostrar o que cada grupo representa: ");
 
 
+            Console.ReadKey();
+            Console.WriteLine("\r\n\r\n1 — Competência técnica/funcional\r\n" +
+                "Pessoas tecnicamente ancoradas comprometem-se com uma carreira" +
+                " de especialização. Elas ficam motivadas quando são especialistas" +
+                " em um determinado assunto, buscam trabalhos desafiadores," +
+                " querem testar o conhecimento e a habilidade que têm em sua área de atuação." +
+                "\r\n\r\nSão pessoas que não visam altos cargos administrativos " +
+                "(essas, normalmente, são mais generalistas), e sim cargos de especialista em uma determinada área.\r\n\r\n" +
+                "2 — Competência administrativa/geral\r\nQuem tem como âncora de carreira a competência administrativa geral busca," +
+                " ao longo de sua vida profissional, atingir os mais altos níveis de responsabilidade na organização.\r\n\r\n" +
+                "São pessoas que visam a liderança e têm como motivação atingir o topo da hierarquia corporativa. Para elas," +
+                " a especialização é uma armadilha: entendem a importância de conhecer as áreas funcionais," +
+                " mas não buscam se aprofundar tecnicamente, pois querem a função de gerência-geral.\r\n\r\n" +
+                "3 — Autonomia e independência\r\nPessoas com essa âncora vão buscar, com o passar do tempo," +
+                " uma carreira que possibilite maior independência, que permita impor suas próprias condições.\r\n\r\n" +
+                "A autonomia é inerente a qualquer ser humano, em níveis diferentes, mas quem tem fortemente" +
+                " essa âncora sente a necessidade de ser dono de seu próprio destino, fazer as coisas do seu jeito;" +
+                " por isso, vai organizar sua vida profissional em torno de trabalhos que lhe proporcionem mais escolha e poder de decisão.\r\n\r\n" +
+                "4 — Segurança e estabilidade\r\nAqui se enquadram pessoas que precisam se sentir seguras no ambiente de trabalho." +
+                " Elas buscam maior previsibilidade do futuro, querem “saber onde pisam”." +
+                " São atraídas por empregos em empresas que oferecem essa estabilidade, com bons planos de aposentadoria e boa reputação." +
+                " É essa estabilidade, principalmente financeira, que vai guiar a carreira desses profissionais.\r\n\r\n" +
+                "5 — Criatividade empreendedora\r\nNessa âncora, estão os profissionais com tino para a criação de novos negócios e organizações." +
+                " Não são pessoas necessariamente com criatividade artística, mas sim com um espírito empreendedor," +
+                " que querem estabelecer ou reestruturar negócios próprios.\r\n\r\nTêm motivação para, desde cedo," +
+                " iniciar empreendimentos para ganhar dinheiro. Vale ressaltar que o enfoque aqui não é a busca por autonomia, e sim pela criação de negócios.\r\n\r\n" +
+                "6 — Dedicação a uma causa\r\nPessoas com essa âncora são orientadas em sua carreira por valores que querem imprimir em seu trabalho." +
+                " Elas se voltam para os valores e se dedicam a causas, mais do que aos seus talentos e competências. São profissionais que querem," +
+                " de alguma forma, contribuir para um mundo melhor por meio de seu trabalho.\r\n\r\n" +
+                "7 — Desafio puro\r\nNessa âncora," +
+                " se encaixam profissionais que definem sucesso como a superação de obstáculos impossíveis ou como a capacidade de solucionar problemas insolúveis." +
+                " São pessoas que necessitam sentir que podem conquistar qualquer coisa.\r\n\r\n" +
+                "A busca por desafios permeia a carreira de quase todo mundo, mas, para quem é ancorado no desafio puro," +
+                " é o que norteia a sua trajetória — todas as suas decisões profissionais vão sempre ser com o objetivo de superar desafios cada vez maiores.\r\n\r\n" +
+                "8 — Estilo de vida\r\nMuitas vezes, interpretam essa âncora como sendo a de pessoas que não dão prioridade à sua carreira," +
+                " mas não se trata disso. A questão é que pessoas ancoradas pelo estilo de vida buscam encontrar uma forma de integrar todas as suas necessidades:" +
+                " individuais, de família e de carreira. Podem ser altamente motivadas pelo trabalho, mas entendem que ele deve ser apenas uma parte de sua vida como um todo.\r\n\r\n" +
+                "São pessoas que querem, acima de tudo, flexibilidade. Por isso, olham mais para a atitude da empresa do que para o programa de trabalho propriamente dito." +
+                " A diferença para a âncora da autonomia é que elas se adaptam bem ao ambiente organizacional, com suas regras e restrições, mas querem ter opções mais flexíveis de trabalho.");
             Console.WriteLine("\nPressione qualquer tecla para sair...");
             Console.ReadKey();
         }
